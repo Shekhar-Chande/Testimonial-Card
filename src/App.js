@@ -1,24 +1,11 @@
-import logo from './logo.svg';
+import TestimonialCard from '../src/components/TestimonialCard'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <TestimonialCard name={"Sarah Dole"} handle={"@sarahdole"} objective={"I've been searching for high-quality abstract images for my design project, and I'm thrilled to have found this platform. The variety and depth of creativity are outstanding."}/>    
+    </>
   );
 }
 
